@@ -1,0 +1,253 @@
+== LAMBENT ==
+
+Titles: 'Danger Close' 'Good Riddance' 'Split'
+
+You just want to buy milk, but weird stuff keeps happening
+
+'voice' choices are "good" - you'll encounter less weird stuff if you follow it
+'you' choices are "bad" - you're going to have a crazy time if you keep ignoring it
+
+Story
+
+0 - You need to go out to by some milk. But things are never so easy. On the way, you whitness an assult. It happens in broad daylight, but you are the only one around. Do you...
+
+	- 1 Help out (you)
+	- 2 Leave (voice)
+
+1 You help out (you)
+- You approach the people as they scuffle, though you are hesitant. You want to help, you really do, but something feels off. Pushing the feeling away you go to break the fight up. The attacker briefly sizes you up before fleeing. Do you...
+
+	- 3 Follow them after making sure the person's alright (voice)
+	- 4 Check the person is ok then leave (you)	
+
+3 Follow them (voice)
+- As they run, you follow. They are pretty fast, but you don't have much trouble keeping up. What worries you, though, are all the twists and turns they're taking. You know the area well, so you won't get lost. But still... the way they're going doesn't quite sit right with you. You should ignore that feeling. What now?
+	
+	- 7 Give up the chase (you)
+	- 8 Continue (voice) - back to reality ending
+
+4 Don't follow (you)
+- As you watch the man leave, you feel uneasy. You feel the urge to follow them. After checking that the person is okay, you remember that you were supposed to be buying milk. That doesn't seem so important anymore. The man that ran though...
+
+	- 9 Chase after them (voice) [go to 3]
+	- 10 Go buy milk (you)
+
+7 Give up chase (you) [in the other realm]
+- You slow to a stop and take a moment to catch your breath. What are you going to do now?
+
+	- 15 Go back the way you came (you)
+	- 16 Follow where the person went, but slowly (you)
+
+8 Back to reality [a voice ENDING]
+- The attacker rounds a corner. As you do, you found they've disappeared into a crowd. The sudden noise of the street is startling and you realise just how quiet it had been a few moments earlier. At that thought, you feel as though you're being watched. Ignore the feeling. Just go and buy the milk.
+
+	- 17 Buy milk (voice) [END]
+	- 18 Turn around (you) [go to 18]
+
+10 Go buy milk (you) [in the other realm]
+- After wishing that person well, you finally return to your initial objective. It's a little late for that, but you're determined. The streets are still empty, you notice. It is always like this at - you check your watch - 08:17? You don't think so...
+
+	- **** Ignore the feeling and continue (linear) [go to 15]
+
+15 Go back the way you came (you)
+- You make your way to the shop. It's awfully quiet. You know, going home might be a good idea.
+
+	- 31 You don't need milk (voice)
+	- 32 Apparently you think you do (you)
+
+16 Follow, but slowly (you)
+- Changing your mind, you make to follow person, but you've lost them completely. And now you're lost! You wander the streets, trying to find your barings. Everything feels familiar, as it should, but you still feel lost. It's like being in a dream. After a while you come to a street with a bus stop. There is a person waiting under the shelter... Their presence is unsettling.
+	
+	- 33 Approach them (you)
+	- 34 Keep on walking (voice)
+
+17 Just buy the milk [a voice ENDING]
+- You continue down the noisy street and make your way to the shop. You arrive with no further disruptions. Finally.
+
+18 Turn around (you) [a you bridge]
+- Curiosity overcomes you and go back down that quite street. After turning the corner you can't hear any of the noise from the busy road you just left. Very odd. Maybe poking your nose into odd things isn't the best idea? + You continue to walk and pass through familiar roads, though you have no idea where you are. Trying to look too closely at the signs and buildings starts to give you a headache. You're lost, but you can find your way given enough time. Just don't... interact with anything. + Not even that person by the bus stop in the distance.
+
+	- 37 Interact with the person (you) [go to 33]
+	- 38 Ignore the person (voice) [go to 34]
+
+31 You don't need it [a voice ENDING]
+- A sensible choice. You go straight back home, not letting any of life's destractions get to you. When you close the front door behind you, you notice your hands are shaking. It's nothing to worry about. We're safe now.
+
+32 You need that milk (you)
+- You ignore common sense and continue on towards the shop. The journey is taking a lot longer than usual... Are you lost? You definitely are.
+In the distance you see a bus stop... and a person waiting under the shelter. Their presence is more unsettling than being alone.
+
+	- 63 Approach them (you) [go to 33]
+	- 64 Keep on walking (voice) [go to 34]
+
+33 Approach stranger (you)
+- You... you walk right up to them, completely oblivious to all the warnings. The thing turns as you near it. An expression of mild surprise crosses its... your face? It has your face.
+
+	- 67 Check your reflection (you)
+	- 68 Ask for directions (you)
+
+34 Keep walking past stranger (voice)
+- As you pass you can feel their eyes on you. You keep walking and the uneasy fades as they get further away. You still have no idea where you are. It's still too quiet.
+
+	- 69 Check phone for directions (voice)
+	- 70 Call out for someone (you)
+
+67 Check reflection (you)
+- Confused, you look at the glass of the shelter. Your face stares back at you. The stranger with your face seems amused. It grins and offers you a paper map.
+
+	- 135 Refuse map (voice)
+	- 136 Take map (you)
+
+68 Ask for directions (you)
+- Doing your best to ignore the oddness of the situation, you ask it how to get to the shop from here. It doesn't say a word, but raises a hand to point down the street. It doesn't lower it's hand until you start to moving in the direction it pointed you in. + You keep walking for a while. And keep walking. You're still walking. + As you begin to wonder how far this street goes, you come upon the shop. You get the feeling that this isn't where it's supposed to be as you look at the surrounding buildings. Every one is residential. They all look like your house.
+
+	- 137 Go to the shop (you)
+	- 138 Examine houses (voice)
+
+69 Check phone map (voice)
+- The phone has no signal.
+
+	- 139 Follow your gut and keep walking (voice)
+	- 140 Call out for someone (you) [go to 70]
+
+70 Call out for someone (you)
+- No one answers. The air seems to swallow up your call. You get the feeling that no one more than a couple of meters away would have heard that.
+
+	- 141 Call out again (you)
+	- 142 Give up and make your own way (voice) [go to 139]
+
+135 Refuse map (voice)
+- Your skin prickles at the thought of taking the map from the thing and you take a step backwards. It keeps its hand outstretched, still holding the map out to you, but its smile is gone.
+
+	- 271 Run. (voice)
+	- 272 Take map (you) [go to 136]
+
+136 Take map (you)
+- Your hand shakes as you accept it. You know this is wrong, but you accept it anyway. You thank the thing, your voice no more than a whisper, before you move away to unfold it. It's a map of the local area. A route has been marked out in black pen, with what appears to be a destination, circled in red. Looking at it more closely, you see that the path begins from this very spot. It ends at the shop.
+
+	- 273 Find your way home (voice) [go to 139]
+	- 274 Follow the route (you)
+
+137 Go to shop (you)
+- You enter the shop.
+
+	- 275 ... () [go to 549]
+	- 276 ... () [as above]
+
+138 Examine houses (voice)
+- You approach the closest building and stand by the front door. You feel compelled to open it. The keys are already in your hand.
+
+	- 277 Open the door (voice) [go to 550]
+	- 278 Don't open door (lol) [as above]
+
+139 Follow your gut and keep walking (voice) [ENDING voice]
+- You eventually come to your house. You never did manage to get the milk in the end, but you don't care. You enter the building and lock the door behind you. Don't worry. We're safe now.
+
+141 Call out again (you)
+- You call again, your voice sounding just as muted as before. This time though, you see a person walking towards you. It looks like they heard you. + The stranger stops only a meter away and gestures for you to follow. You don't feel like it's safe to refuse its help.
+
+	- 279 Follow it (you) [go to 274]
+	- 280 Run. (voice) [go to 271]
+
+271 Run (voice) [ENDING voice]
+- Giving you the chance to choose was a mistake. You run. But now it will be fine. And run. I'll make sure of it. You don't stop until you end up at the steps to your house. And even then you only pause to take your keys out. Once inside, you quickly lock the door behind you. Your movements don't seem like your own. That doesn't matter, though. We're safe and together. That's all that matters.
+
+274 Follow the route (you)
+- Following takes you to the shop.
+
+	- 549 Enter shop (you)
+	- 550 Go home (voice)
+
+549 Enter shop (you) [ENDING you]
+- ... + ... + ... + "Isn't the quiet nice? You don't need to worry about that voice anymore."
+
+550 Go home (voice) [ENDING voice]
+- Did you think I would let you choose now? You're blind to the danger we're in.
+We enter the building and lock the door. We are safe now.
+
+2 You leave (voice)
+- You continue walking, pretending you don't see. You feel so much safer already, leaving things to fate. You're at the shop now.
+
+	- 5 Wander around a bit (you)
+	- 6 Go straight to get milk (voice)
+
+5 Wander around (you)
+- You're at a shop with just enough money to buy milk, but you decided to look around. There's nothing that catches your interest. The cashier is giving you a weird look.
+
+	- 11 Buy milk (voice) [go to 6]
+	- 12 Talk to cashier (you)
+
+6 Go to milk (voice) [EDNING voice]
+- You go to the section with the milk and buy it. Now that you've got the milk, you can finally enjoy a nice breakfast. Well done for not messing things up.
+
+12 Talk to cashier (you)
+- You say hi and they quickly look away. Maybe you should take the hint?
+
+	- 25 Just buy the milk [go to 6]
+	- 26 Talk again (you)
+
+26 Talk with them
+- Throwing reason out of the window, you decide to talk to this person who's clearly not in the mood for conversation.
+
+	- 53 Ask them how they're doing
+	- 54 Talk about the weather
+
+53 How are they?
+- They frown, but as the silence continues they manage a reply. + "I'm alright." + It sounds more like "Leave me alone." You consider talking about the weather. It's a bad idea.
+
+	- 107 Leave them alone
+	- 108 Continue the suffering [go to 54]
+
+54 Weather's looking good, right?
+- You can almost see them die inside as the words leave your mouth. They are likely wondering what they did to deserve this cursed existance.
+
+	- 109 Keep the 'convo' going
+	- 110 Leave them in peace [go to 107]
+
+107 Leave them alone
+- Remembering that you're here to buy milk and not harass the shop assistant, you leave them to find the dairy aisle. Once there, you spot the milk.
+
+	- 215 Buy the milk
+	- 216 Browse the shop
+
+109 Make them suffer
+- You start to ask about their hobbies and tell them about yours. They don't seem to be enjoying this as much as you.
+
+	- 219 Leave them [go to 107]
+	- 220 Finish them
+
+215 Git milk [voice ENDING]
+- Not wasting any more time, you pick up the size you can afford and pay for it at the checkout. Now you can enjoy that breakfast I'm sure you've forgotten about.
+
+216 Window shopping time!
+- Deciding that you have time to kill, you keep on walking past the item you came for. You have no money for anything else, but you want to look around anyway. There's food and newspapers, drinks and snacks, medicines and all sorts of other products. You didn't come to buy any of these things. But you look around anyway. 
+
+	- 433 Buy something else
+	- 434 Buy milk
+
+220 End this non-talky boi
+- ... + You... + You can't do that. + The shop worker looks uncomfortable. You're staring at them.
+
+	- 441 We're leaving. Now.
+	- 442 I mean it.
+
+433 Buy something that isn't milk
+- ... What will it be?
+
+	- 867 A newspaper
+	- 868 Snacks
+
+434 Finally, the milk ENDING
+- After wasting an unbelievable amount of time, you take the milk, buy it, and return home. Finally.
+
+441 Liv cashy-boi alone ENDING
+- You leave the shop without buying the milk. If want to waste time, you don't deserve it.
+
+442 Leave shopy-boi ("I mean it") ENDING 
+- You no longer have a choice in this matter.
+
+867 You bought a.... newspaper ENDING
+- You purchase a newspaper instead of the milk. When you return home, you enjoy a breakfast of dry cereal and inked paper.
+
+868 You bought... doritoes and lucazade
+- You have enough to buy a pack of crisps, but no drink, so that's what you get. It's a... decent enough substitute for cereal. 

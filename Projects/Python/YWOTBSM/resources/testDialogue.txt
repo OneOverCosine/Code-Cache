@@ -1,0 +1,33 @@
+0 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 1 | 2
+1 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 3 | 4
+2 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 5 | 6
+3 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 7 | 8
+4 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 3 | 10
+5 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 6 | 12
+6 | - You have reached an ENDING + 1. Choice 1 + 2. Choice 2 | -1 | -1
+7 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 15 | 16
+8 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 17 | 18
+10 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 15 | 15
+12 | - You do something and are given choices (but this one temporaily ends the game) + 1. Choice 1 + 2. Choice 2 | -1 | -1
+15 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 31 | 32
+16 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 33 | 34
+17 | - You have reached an ENDING + 1. Choice 1 + 2. Choice 2 | -1 | -1
+18 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 33 | 34
+31 | - You have reached an ENDING + 1. Choice 1 + 2. Choice 2 | -1 | -1
+32 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 33 | 34
+33 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 67 | 68
+34 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 69 | 70
+67 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 135 | 136
+68 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 137 | 138
+69 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 139 | 70
+70 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 141 | 139
+135 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 271 | 136
+136 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 139 | 274
+137 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 549 | 549
+138 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 550 | 550
+139 | - You have reached an ENDING + 1. Choice 1 + 2. Choice 2 | -1 | -1
+141 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 274 | 271
+271 | - You have reached an ENDING + 1. Choice 1 + 2. Choice 2 | -1 | -1
+274 | - You do something and are given choices + 1. Choice 1 + 2. Choice 2 | 549 | 550
+549 | - You have reached an ENDING + 1. Choice 1 + 2. Choice 2 | -1 | -1
+550 | - You have reached an ENDING + 1. Choice 1 + 2. Choice 2 | -1 | -1
