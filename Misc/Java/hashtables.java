@@ -1,8 +1,10 @@
 import java.util.Hashtable;
-import java.util.Iterator;
 
 public class hashtables {
     public static void main(String[] args){
+        /* Messing around with hashtables to gt comfortable using them
+        this code doesn't do anything in particular */
+        
         System.out.println("Working with Hashtables!");
 
         Hashtable<String, Integer> ageList = new Hashtable<>();
