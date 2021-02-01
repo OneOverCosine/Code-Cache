@@ -6,7 +6,7 @@ public class twoStrings {
         so my thoughts should be in twoStrings.py
         the code below is setup for the function */
 
-        String s1 = "hello";
+        String s1 = "bye";
         String s2 = "world";
 
         System.out.println("Do " + s1 + " and " + s2 + " contain any common substrings?");
@@ -15,7 +15,7 @@ public class twoStrings {
 
     // Complete the twoStrings function below.
     static String twoStringsProblem(String s1, String s2) {
-        /* ntoes: */
+        /* notes: */
 
         // create a hashtable to hold all the letters that appear in s1
         Hashtable<Character, Boolean> s1Hash = new Hashtable<>();
@@ -31,7 +31,7 @@ public class twoStrings {
 
         // check the letters s2
         for(int i = 0; i < s2.length(); i++){
-            if(s1Hash.get(s2.charAt(i)) == true){
+            if(s1Hash.containsKey(s2.charAt(i))){
                 // this part needs some work
                 return "YES";
             }
