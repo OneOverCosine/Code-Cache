@@ -1,4 +1,4 @@
-public class Array2d_DS {
+public class Array2dDS {
     // for the 2D Array - DS practice problem
 
     public static void main(String[] args){

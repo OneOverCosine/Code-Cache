@@ -1,4 +1,4 @@
-public class arrays_DS {
+public class arraysDS {
     public static void main(String[] args){
         /* the goal was to write code that would reverse an array */
 
