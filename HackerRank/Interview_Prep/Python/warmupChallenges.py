@@ -20,30 +20,36 @@ def jumpingOnClouds(c):
     return jumps
 
 def repeatedString(s, n):
-    # 
-
-    nString = s * (n//len(s)) + s[0:n%len(s)] # the first n characters to work with
-
+     
     val = "a" # as this is the character I'm checking for in this challenge
 
-    print(nString) # test
+    if(val not in s):
+        return 0 # the character will never show up
 
-    return -1
+    # no. times s fits in n * no. times a appears in s
+    count = n//len(s) * s.count(val)
+
+    if(n%len(s) != 0):
+        count += s[:n%len(s)].count(val) # no. times a appears in first v chars of string
+
+    return count
 
 def main():
     # this is only setup for problems
 
     print("running main")
 
-    c = [0, 1, 0, 0, 0, 1, 0]
+    #c = [0, 1, 0, 0, 0, 1, 0]
 
-    print("It takes " + str(jumpingOnClouds(c)) + " jumps to get to the end")
+    #print("It takes " + str(jumpingOnClouds(c)) + " jumps to get to the end")
 
     #-------------------------
 
-    s = "abcac"
+    s = "acg"
     n = 16
 
-    repeatedString(s, n)
+    output = "The number of a's in a string of length {} is {}"
+
+    print(output.format(n, repeatedString(s, n)))
 
 main()
