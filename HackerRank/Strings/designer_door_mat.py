@@ -40,7 +40,7 @@ def make_door_mat(n, m):
 
     print(mat)
 
-def main():
+if __name__ == "__main__":
     n = 9
 
     inputs_list = []
@@ -50,9 +50,8 @@ def main():
 
     inputs_list = inputs_list[0].split()
 
-    n = inputs_list[0]
-    m = inputs_list[1]
+    # remember to convert strings to integers
+    n = int(inputs_list[0])
+    m = int(inputs_list[1])
 
     make_door_mat(n, m)
-
-main()
