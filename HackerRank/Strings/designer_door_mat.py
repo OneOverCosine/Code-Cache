@@ -41,17 +41,19 @@ def make_door_mat(n, m):
     print(mat)
 
 if __name__ == "__main__":
-    n = 9
+    n = 13
 
-    inputs_list = []
+    # inputs_list = []
 
-    for line in sys.stdin:
-        inputs_list.append(line.strip())
+    # for line in sys.stdin:
+    #     inputs_list.append(line.strip())
 
-    inputs_list = inputs_list[0].split()
+    # inputs_list = inputs_list[0].split()
 
-    # remember to convert strings to integers
-    n = int(inputs_list[0])
-    m = int(inputs_list[1])
+    # # remember to convert strings to integers
+    # n = int(inputs_list[0])
+    # m = int(inputs_list[1])
+
+    m = 3 * n
 
     make_door_mat(n, m)
