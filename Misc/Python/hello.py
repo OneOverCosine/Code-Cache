@@ -1,11 +1,18 @@
 import sys
 import time
+from my_array import my_array
 
-# seemed a suitable way to start off this repo
-# print("Hello world!")
-for i in range(10):
-    print(i, end = ' ')
-    sys.stdout.flush()
-    time.sleep(1)
 
-input('\nPress enter to exit\n')
+def timed_count(counter):
+    for i in range(counter):
+        print(i, end = ' ')
+        sys.stdout.flush()
+        time.sleep(1)
+
+
+if __name__ == "__main__":
+    
+    numbers = my_array(3)
+    numbers.print_array()
+
+    input('\nPress enter to exit\n')

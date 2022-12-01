@@ -36,6 +36,6 @@ def my_find_anagrams(s):
 
 if __name__ == "__main__":
     
-    s = "kkkk"
+    s = "ifailuhkqq"
 
-    print(f"There are {find_anagrams(s)} anagrams in the string {s}")
+    print(f"There are {my_find_anagrams(s)} anagrams in the string {s}")

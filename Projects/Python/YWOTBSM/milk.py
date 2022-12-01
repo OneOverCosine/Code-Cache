@@ -43,7 +43,6 @@ def loadDialogue(filepath):
     # read through each line of the file
 
     for line in textDump:
-
         dialogueDump.append(line)
 
 

@@ -66,4 +66,4 @@ if __name__ == '__main__':
 
     s = "BANANANAAAS"
 
-    minion_game(s)
+    force_minion_game(s)

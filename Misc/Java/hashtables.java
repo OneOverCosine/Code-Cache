@@ -2,17 +2,17 @@ import java.util.Hashtable;
 
 public class hashtables {
     public static void main(String[] args){
-        /* Messing around with hashtables to gt comfortable using them
+        /* Messing around with hashtables to get comfortable using them
         this code doesn't do anything in particular */
         
         System.out.println("Working with Hashtables!");
 
         Hashtable<String, Integer> ageList = new Hashtable<>();
 
-        ageList.put("Cringe Katalyst", 22);
-        ageList.put("Bumblebee", 7);
-        ageList.put("PioneerShark", 18);
-        ageList.put("2ndSlate", 20);
+        ageList.put("Cringe Katalyst", 24);
+        ageList.put("Bumblebee", 9);
+        ageList.put("PioneerShark", 19);
+        ageList.put("2ndSlate", 22);
         
         String name = "Cringe Katalyst";
 
