@@ -83,9 +83,73 @@ def day_02():
         opponent_choice = line[0]
         outcome = true_outcomes[line[-1]]
 
-        your_choices = outcomes[outcome]  # left off here
+        possible_choices = outcomes[outcome]
+        your_choice = ""
+        
+        for choices in possible_choices:
+            if opponent_choice == choices[0]:
+                your_choice = choices[-1]
+                break
+        
+        total_points += choice_scores[your_choice] + outcome_scores[outcome]
+    
+    print(f"Correct final score: {total_points}")
 
+
+def day_03():
+    print("=== Day 03 ===")
+    
+    file_input = get_input("03")
+
+    if file_input == -1:
+        return
+    
+    puzzle_input = file_input.read().split()
+
+    # part 1: priority sums
+    priority_sum = 0
+
+    for rucksack in puzzle_input:
+        split = len(rucksack) // 2
+        item = common_substring(1, rucksack[0:split], rucksack[split:len(rucksack)])
+        priority_sum += get_priority(item)
+
+    print(f"Priority of misplaced items: {priority_sum}")
+
+
+    # part 2: common in three strings
+
+
+def common_substring(size, string1, string2):
+    """ only looking for a single match for day 03 """
+
+    for i in range(0, len(string1) - size + 1):
+        chars1 = string1[i:i+size]
+        for j in range(0, len(string2) - size + 1):
+            chars2 = string2[j:j+size]
+            if chars1 == chars2:
+                return chars1
+
+    return "No match found"
+
+
+def multi_common_substring(size, strings):
+    
+
+    string1_test = "hello"
+    string2_test = "hallo"
+
+
+
+
+def get_priority(letter):
+    if len(letter) > 1:
+        return 0
+
+    if letter.isupper():
+        return ord(letter) - 38
+    return ord(letter) - 96
 
 
 if __name__ == "__main__":
-    day_02()
+    day_03()
